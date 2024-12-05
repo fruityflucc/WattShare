@@ -495,10 +495,6 @@ body.active {
   font-size: var(--fs-7);
 }
 
-/*-----------------------------------*\
-  #MARKET
-\*-----------------------------------*/
-
 .market {
   background-color: var(--eerie-black-1);
   color: var(--white);

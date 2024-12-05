@@ -19,12 +19,12 @@ contract EnergyTrading {
         string imageUrl;
         string title;
         string description;
-        uint energyRequired; // Energy required in kWh
-        uint energyContributed; // Energy contributed in kWh
-        uint fundsAllocatedInWei; // Funds allocated for this trade in Wei
-        uint fundsWithdrawnInWei; // Funds withdrawn from this trade in Wei
-        address consumerAddress; // Address of the consumer initiating the trade
-        address producerAddress; // Address of the producer fulfilling the trade
+        uint energyRequired;
+        uint energyContributed;
+        uint fundsAllocatedInWei;
+        uint fundsWithdrawnInWei;
+        address consumerAddress;
+        address producerAddress; 
     }
 
     mapping(uint => Trade) public idToTrade;

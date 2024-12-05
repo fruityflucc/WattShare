@@ -17,12 +17,12 @@ contract EnergyTrading {
         uint id;
         string title;
         string description;
-        uint energyRequired; // Energy required in kilowatt-hours (kWh)
-        uint energyProvided; // Energy provided in kWh
-        uint fundsAllocated; // Funds allocated in Wei
-        uint fundsWithdrawn; // Funds withdrawn in Wei
-        address requester; // Address of the energy consumer
-        address provider; // Address of the energy producer
+        uint energyRequired;
+        uint energyProvided;
+        uint fundsAllocated;
+        uint fundsWithdrawn;
+        address requester;
+        address provider;
     }
 
     mapping(uint => EnergyTrade) public idToTrade;
